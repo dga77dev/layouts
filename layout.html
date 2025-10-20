@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description"
+        content="Layout horizontal header - main (auto hasta el final del foote). footer fijo abajo. no scrolable.">
+    <title>Layout horizontal </title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', system-ui, sans-serif;
+        }
+
+        header {
+            grid-area: header;
+            background-color: #ffba28;
+            text-align: center;
+            /* line-height: 45px; */
+            color: white;
+        }
+
+        main {
+            grid-area: main;
+            padding: 20px;
+            background-color: aquamarine;
+        }
+
+        footer {
+            grid-area: footer;
+            background-color: black;
+            text-align: center;
+            line-height: 50px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Logo</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Alumnos</a></li>
+                <li><a href="#">Configuración</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        Cursos 0
+        Alumnos 0
+        <p>afsdfadfssdfasd</p>
+        <p>afsdfadfssdfasd</p>
+        <p>afsdfadfssdfasd</p>
+        <p>afsdfadfssdfasd</p>
+        <p>afsdfadfssdfasd</p>
+        <p>afsdfadfssdfasd</p>
+    </main>
+
+    <footer>
+        <!-- footer siempre abajo -->
+        <p>&copy; 2025 RedStudia. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
